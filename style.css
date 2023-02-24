@@ -1,0 +1,27 @@
+#paragraf1 {
+    color: blue;
+}
+#paragraf1 b {
+    color: green;
+}
+#paragraf2 {
+    color: rgb(128, 73, 0);
+}
+button {
+    height: 50px;
+}
+.positif {
+    background-color: rgb(146, 206, 146);
+}
+.tebal {
+    font-weight: bold;
+}
+#konten {
+    border: solid black 2px;
+    margin-top: 20px;
+}
+#isi {
+    border: solid red 5px;
+    margin: 20px;
+    padding: 10px;
+}
