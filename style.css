@@ -13,6 +13,9 @@ button {
 .positif {
     background-color: rgb(146, 206, 146);
 }
+.negatif {
+    background-color: rgb(206, 146, 146);
+}
 .tebal {
     font-weight: bold;
 }
