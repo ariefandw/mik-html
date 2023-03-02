@@ -84,58 +84,64 @@
       </div>
       <h1>Hello world</h1>
       <a href="https://ugm.ac.id" class="btn btn-primary">Link UGM</a>
-      <div class="row align-items-start">
-        <div class="col">One of three columns</div>
-        <div class="col">One of three columns</div>
-        <div class="col">One of three columns</div>
-      </div>
 
       <form>
-        <div class="mb-3">
-          <label class="form-label">No RM</label>
-          <input type="text" class="form-control" />
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Nama</label>
-          <input type="text" class="form-control" />
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Tanggal Lahir</label>
-          <input type="date" class="form-control" />
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Tinggi Badan</label>
-          <input type="number" class="form-control" />
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Berat Badan</label>
-          <input type="number" class="form-control" />
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Jenis Kelamin</label>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="jk" />
-            <label class="form-check-label">Perempuan</label>
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="mb-3">
+              <label class="form-label">No RM</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Nama</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Tanggal Lahir</label>
+              <input type="date" class="form-control" />
+            </div>
+            <div class="mb-3">
+              <div class="row">
+                <div class="col">
+                  <label class="form-label">Tinggi Badan</label>
+                  <input type="number" class="form-control" />
+                </div>
+                <div class="col">
+                  <label class="form-label">Berat Badan</label>
+                  <input type="number" class="form-control" />
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Jenis Kelamin</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="jk" />
+                <label class="form-check-label">Perempuan</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="jk" />
+                <label class="form-check-label">Laki-laki</label>
+              </div>
+            </div>
           </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="jk" />
-            <label class="form-check-label">Laki-laki</label>
+          <div class="col">
+            <div class="mb-3">
+              <label class="form-label">Kota</label>
+              <select class="form-select">
+                <option value="1">Yogyakarta</option>
+                <option value="2">Sleman</option>
+                <option value="3">Kulonprogo</option>
+                <option value="4">Gunung Kidul</option>
+                <option value="5">Bantul</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Alamat</label>
+              <textarea class="form-control"></textarea>
+            </div>
           </div>
         </div>
-        <div class="mb-3">
-          <label class="form-label">Kota</label>
-          <select class="form-select">
-            <option value="1">Yogyakarta</option>
-            <option value="2">Sleman</option>
-            <option value="3">Kulonprogo</option>
-            <option value="4">Gunung Kidul</option>
-            <option value="5">Bantul</option>
-          </select>
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Alamat</label>
-          <textarea class="form-control"></textarea>
-        </div>
+
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
